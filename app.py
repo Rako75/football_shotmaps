@@ -227,9 +227,9 @@ HEADERS = {
 }
 
 def get_filename(league_slug, season):
-    """Génère le nom de fichier pour une ligue et saison"""
+    """Génère le nom de fichier pour une ligue et saison dans le dossier data/"""
     season_clean = season.replace('/', '_')
-    return f"tirs_{league_slug}_{season_clean}.csv"
+    return f"data/tirs_{league_slug}_{season_clean}.csv"
 
 def recuperer_ids_matchs_termines(league_id, season):
     """Récupère les IDs des matchs terminés"""
@@ -287,6 +287,9 @@ def extraire_tirs_match(match_id, league_name, season):
 
 def lancer_scraping(league_conf, season_str):
     """Orchestre le scraping avec interface Streamlit"""
+    # Créer le dossier data/ s'il n'existe pas
+    Path("data").mkdir(exist_ok=True)
+    
     filename = get_filename(league_conf['slug'], season_str)
     
     st.info(f"🔄 Récupération des matchs pour {league_conf['name']} ({season_str})...")
@@ -317,7 +320,7 @@ def lancer_scraping(league_conf, season_str):
             writer = csv.DictWriter(f, fieldnames=all_data[0].keys())
             writer.writeheader()
             writer.writerows(all_data)
-        st.success(f"🎉 Données collectées: ({len(all_data)} tirs)")
+        st.success(f"🎉 Données collectées: ({len(all_data)} tirs) → {filename}")
         return filename
     else:
         st.error("❌ Aucun tir récupéré")
