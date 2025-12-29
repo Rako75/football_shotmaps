@@ -1,6 +1,6 @@
 # ⚽ Football Shotmaps
 
-Application professionnelle de visualisation et d'analyse des zones de tir pour les principales compétitions de football européennes.
+Application de visualisation et d'analyse des zones de tir pour les principales compétitions de football européennes.
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.28+-red.svg)
@@ -30,7 +30,7 @@ Application professionnelle de visualisation et d'analyse des zones de tir pour 
 
 ## 📸 Aperçu
 
-L'application propose des shotmaps professionnelles avec :
+L'application propose des shotmaps avec :
 - Hexbins de densité colorés selon le thème de la ligue
 - Demi-cercle de distance médiane de tir
 - Statistiques détaillées (tirs, buts, xG, xG/tir)
