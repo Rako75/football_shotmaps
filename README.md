@@ -149,31 +149,8 @@ Les données sont sauvegardées en CSV avec les colonnes suivantes :
 - Les headers HTTP sont nécessaires pour accéder à l'API FotMob
 - Les images sont téléchargées en temps réel depuis FotMob
 
-## 🤝 Contribution
 
-Les contributions sont les bienvenues ! N'hésitez pas à :
-
-1. Fork le projet
-2. Créer une branche (`git checkout -b feature/amelioration`)
-3. Commit vos changements (`git commit -m 'Ajout fonctionnalité'`)
-4. Push vers la branche (`git push origin feature/amelioration`)
-5. Ouvrir une Pull Request
 
 ## 📝 Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-## 🙏 Remerciements
-
-- **FotMob** pour les données
-- **mplsoccer** pour les outils de visualisation
-- **Streamlit** pour le framework
-- **Google Fonts** pour la police Montserrat
-
-## 📧 Contact
-
-Pour toute question ou suggestion, n'hésitez pas à ouvrir une issue sur GitHub.
-
----
-
-⭐ Si vous aimez ce projet, n'oubliez pas de lui donner une étoile sur GitHub !
