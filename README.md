@@ -47,8 +47,8 @@ L'application propose des shotmaps avec :
 
 ```bash
 # Cloner le repository
-git clone https://github.com/votre-username/football-shotmaps-pro.git
-cd football-shotmaps-pro
+git clone https://github.com/votre-username/football-shotmaps.git
+cd football-shotmaps
 
 # Installer les packages
 pip install -r requirements.txt
@@ -86,7 +86,7 @@ L'application s'ouvrira automatiquement dans votre navigateur à l'adresse `http
 ## 📁 Structure du projet
 
 ```
-football-shotmaps-pro/
+football-shotmaps/
 │
 ├── app.py                      # Application principale
 ├── requirements.txt            # Dépendances Python
