@@ -142,13 +142,6 @@ Les données sont sauvegardées en CSV avec les colonnes suivantes :
 - `position_x` : Coordonnée X
 - `position_y` : Coordonnée Y
 
-## ⚠️ Notes importantes
-
-- Les **penalties sont exclus** de toutes les analyses
-- Le scraping respecte un délai de **0.3s** entre chaque requête
-- Les headers HTTP sont nécessaires pour accéder à l'API FotMob
-- Les images sont téléchargées en temps réel depuis FotMob
-
 
 
 ## 📝 Licence
