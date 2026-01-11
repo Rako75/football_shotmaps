@@ -170,6 +170,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Configuration des ligues
+# Configuration des ligues
 LEAGUE_THEMES = {
     'LIGUE 1': {
         'name': 'LIGUE 1', 'id': 53, 'slug': 'ligue1',
@@ -205,6 +206,32 @@ LEAGUE_THEMES = {
         'name': 'EUROPA LEAGUE', 'id': 73, 'slug': 'uel',
         'background': '#170f00', 'accent': '#f8ad09', 'text': '#fffbeb',
         'gradient': ['#170f00', '#5c3d02', '#b47b05', '#f8ad09', '#ffffff']
+    },
+    # --- NOUVELLES LIGUES AJOUTÉES ---
+    'AFCON': {
+        'name': 'AFCON', 'id': 289, 'slug': 'afcon',
+        'background': '#081c15', 'accent': '#ffce00', 'text': '#ffffff', # Vert foncé et Or
+        'gradient': ['#081c15', '#1b4d3e', '#ffce00', '#ffeb85', '#ffffff']
+    },
+    'MLS': {
+        'name': 'MLS', 'id': 130, 'slug': 'mls',
+        'background': '#0a1020', 'accent': '#fb1636', 'text': '#ffffff', # Bleu nuit et Rouge
+        'gradient': ['#0a1020', '#1c2b4f', '#fb1636', '#ff6b7d', '#ffffff']
+    },
+    'LIGA PORTUGAL': {
+        'name': 'LIGA PORTUGAL', 'id': 61, 'slug': 'liga_portugal',
+        'background': '#1a1a1a', 'accent': '#d6ad60', 'text': '#ffffff', # Noir et Doré
+        'gradient': ['#1a1a1a', '#333333', '#d6ad60', '#f4dcb0', '#ffffff']
+    },
+    'EREDIVISIE': {
+        'name': 'EREDIVISIE', 'id': 57, 'slug': 'eredivisie',
+        'background': '#051124', 'accent': '#ff7b00', 'text': '#ffffff', # Bleu marine et Orange
+        'gradient': ['#051124', '#152b52', '#ff7b00', '#ffaa5c', '#ffffff']
+    },
+    'SUPER LIG': {
+        'name': 'SUPER LIG', 'id': 71, 'slug': 'super_lig',
+        'background': '#260a0a', 'accent': '#e60000', 'text': '#ffffff', # Rouge très sombre et Rouge vif
+        'gradient': ['#260a0a', '#4f0f0f', '#e60000', '#ff6666', '#ffffff']
     }
 }
 
